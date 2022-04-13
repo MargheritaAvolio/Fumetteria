@@ -1,0 +1,49 @@
+
+
+.set-grid {
+    max-width: 320px;
+  }
+
+.logo-center {
+  margin-top: 120px;
+  padding-left: 60px;
+}
+.ben-row {
+  font-family: "myfont";
+    font-weight: normal;
+    src: url('/assets/icon/fonts.woff');
+  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 60px;
+}
+
+.item {
+  font-family: "myfont2";
+  font-weight: normal;
+  src: url('/assets/icon/fonts2.woff2')
+}
+
+.insert {
+  font-size: 13px;
+  margin-top: 1%;
+}
+
+#user {
+  color:rgb(223, 215, 94)
+}
+
+
+
+
+ion-icon {
+  color:rgb(113,90,235)
+}
+
+.button {
+  color: rgb(113, 90, 235);
+  border-style: initial;
+  align-items:flex-end;
+  padding-left: 220px;
+}

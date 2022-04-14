@@ -15,9 +15,9 @@
     </ion-row>
    
 
-    <ion-row class="ben-row">
+    <ion-row class="ben_row">
       <ion-col class="col_center">
-        <h5 id="titolo"> Benvenuti </h5>
+        <h4 id="titolo">Benvenuti!</h4>
       </ion-col>
     </ion-row>
 
@@ -25,32 +25,29 @@
     <ion-row class="item">
       <ion-col>
       <ion-item >
-        <ion-label for="user" position="stacked">Username</ion-label>
-        <ion-input id="user" name="username"></ion-input>
+        <ion-label for="user" position="floating">Inserisci username</ion-label>
+        <ion-input placeholder="username" id="user" name="username"></ion-input>
         <ion-icon name="mail" slot="end"></ion-icon>
       </ion-item>
-      <p class="insert">Inserisci username</p>
       </ion-col>
     </ion-row>
     
     <ion-row class="item">
       <ion-col>
       <ion-item >
-        <ion-label for="pass" position="stacked">Password</ion-label>
-        <ion-input type="password" id="pass" name="pass"></ion-input>
+        <ion-label for="pass" position="floating">Inserisci password</ion-label>
+        <ion-input placeholder="password" type="password" id="pass" name="pass"></ion-input>
         <ion-icon name="lock-closed" slot="end"></ion-icon>
       </ion-item>
-      <p class="insert">Inserisci password</p>
       </ion-col>
     </ion-row>
 
   <div class="col_right">
     <ion-row>
       <ion-col>
-        <ion-button class="button"> LOGIN</ion-button>
+        <ion-button color="tertiary"> LOGIN</ion-button>
       </ion-col>
     </ion-row>
-
   </div>
   </form>  
   </ion-grid>

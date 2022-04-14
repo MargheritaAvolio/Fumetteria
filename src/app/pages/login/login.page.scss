@@ -8,41 +8,35 @@
   margin-top: 120px;
   padding-left: 60px;
 }
-.ben-row {
-  font-family: "myfont";
-    font-weight: normal;
-    src: url('/assets/icon/fonts.woff');
-  margin-bottom: 50px;
-  margin-top: 60px;
+.ben_row {
+  margin-bottom: 45px;
+  margin-top: 80px;
   margin-left: 50px;
   margin-right: 50px;
-  padding-left: 60px;
+  padding-left: 50px;
+}
+#titolo {
+  font-family: "my-font";
+  font-size: 20px;
+  src: url('/assets/icon/fonts.woff');
 }
 
 .item {
-  font-family: "myfont2";
+  font-family: "my-font2";
   font-weight: normal;
+  font-size: 13px;
   src: url('/assets/icon/fonts2.woff2')
 }
-
-.insert {
-  font-size: 13px;
-  margin-top: 1%;
-}
-
-#user {
-  color:rgb(223, 215, 94)
-}
-
 
 
 
 ion-icon {
-  color:rgb(113,90,235)
-}
+  color:rgb(113,90,235); 
+  }
+  
 
-.button {
-  color: rgb(113, 90, 235);
+
+ion-button {
   border-style: initial;
   align-items:flex-end;
   padding-left: 220px;

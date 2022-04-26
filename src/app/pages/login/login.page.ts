@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
 })
-export class LoginPage implements OnInit {
+export class LoginPage implements OnInit {  //loginpage COMPONENTE ha una proprietà (ciao:string)
+
+  titolo:string = "LoginPage Fumetteria DevSkill"
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  
+
+  ngOnInit() {}
 
 }

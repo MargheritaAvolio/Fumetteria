@@ -1,0 +1,42 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title> Convertitore </ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar>
+    <ion-buttons class="scelta">
+      <ion-toolbar>
+        <ion-segment>
+          <ion-segment-button (click)="cambiaTipo(0)" value="gradi" class="Gradi">
+            Converti i Gradi
+          </ion-segment-button>
+          <ion-segment-button (click)="cambiaTipo(1)" value="distanza" class="Distanza">
+            Converti la Distanza
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-grid class="convertitore">
+
+    <div class="misurazione">
+      <ion-row>
+        <ion-input type="number" class="input" (keyup)="convertiGradi($event.target.value,true,0)" [(ngModel)]="originale" placeholder={{misuraA}}> {{valA}} </ion-input>
+      </ion-row>
+
+      <ion-row>
+        <ion-input type="number" class="input" (keyup)="convertiGradi($event.target.value,false,0)" [(ngModel)]="convertito" placeholder={{misuraB}}> {{valB}}</ion-input>
+      </ion-row>
+    </div>
+
+  
+
+     
+    
+  </ion-grid>
+</ion-content>

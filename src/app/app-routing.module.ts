@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
@@ -19,7 +19,15 @@ const routes: Routes = [
     path: 'convertitore',
     loadChildren: () => import('./convertitore/convertitore.module').then( m => m.ConvertitorePageModule)
   },
-];
+  {
+    path: 'registrazione',
+    loadChildren: () => import('./registrazione/registrazione.module').then( m => m.RegistrazionePageModule)
+  },
+  {
+    path: 'congettura-disiracusa',
+    loadChildren: () => import('./congettura-disiracusa/congettura-disiracusa.module').then( m => m.CongetturaDisiracusaPageModule)
+  },
+]
 
 @NgModule({
   imports: [
